@@ -1,0 +1,80 @@
+{
+  "id" : "prodset",
+  "title" : "Set's Guide",
+  "description" : "This book contains everything you need to know about what is inside.",
+  "icon" : "set.png",
+  "contentPages" : [
+    "Hello, fellow patron! Thank you for your interest in the Set Pod!
+
+You can make the Set Pod by hand for just a few pixels. Once you have it, place it anywhere, watch it grow, and reach your hand inside to pull out some goodies!
+
+Our mascot, Setari, or Set, has generously provided this item for use.",
+
+    "^#de5499;Set Pod^reset;
+
+This item is the main focus of the mod. It holds recipes for some SPOs, which make up the majority of the mod, furniture items, and the HSPOs. More on those later.
+
+It resembles a plant-like pod, but pink in color. A hole in the middle is how one \"reaches in\" to get stuff out.",
+
+    "^#ffd700;Microsphere^reset;
+
+This is a vendor that dispenses micros for one to munch on or swallow. It can be bought at the Set Pod.
+
+It is shaped a lot like a sphere with a tripod to stand on.",
+
+    "^#7fbeff;Furniture Items^reset;
+
+All of them are decorative in some way, but some attract certain NPCs unique to this mod. Below are the main things that attract certain NPCs, and who will be summoned.
+
+Blue Bottle = Sei
+Kirikiri Pie, Mia Plush = Renii
+X Badge, Kumi Plush = Sam.",
+
+    "^#ffc4ff;The SPOs^reset;
+
+This mod also adds a few SPOs. We will go through the list here.
+
+Mia: Safe and Fatal OV
+Setari: Safe and Fatal UB
+Taji: Fatal OV",
+
+    "^#ffc4ff;The HSPOs^reset;
+
+This mod has an SPO type that can play different vore scenarios. These are HSPOs; Hybrid Standard Predatory Objects.
+
+We have a list here too, over on the next two pages.",
+
+    "^#bb7fff;HSPO List^reset;
+
+Samira
+-Enter: AV, OV, Tail, UB
+-Exit: AV, OV, UB
+-Fully fatal
+-Unlocks UB mode after digesting once.
+
+Kumi
+-Enter: AV, OV
+-Exit: AV, OV
+-Comes in Fatal and Safe versions.",
+
+    "Eris
+-Enter: AV, OV
+-Exit: AV, OV
+-Comes in Fatal and Safe versions.",
+
+    "^#bfaf00;Credits^reset;
+
+Kumi - Creator of Samira, Sam, and Kumi as OCs. The reason this mod is alive.
+
+Wof/Spoom - Responsible for teaching me how SPOs work and how to improve them.
+
+Sheights - The lead developer of the main SSVM mod and the main source of the needed code.
+
+Warm Regards, Prodigy!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 200
+  }
+}

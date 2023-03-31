@@ -1,0 +1,93 @@
+{
+  "objectName" : "prodsetmicromachine",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Legendary",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Micro Dispensing Machine"
+  },
+  "price" : 3000,
+  "printable" : false,
+  "description" : "A micro production machine for lovely micro snacks to munch on.~",
+  "shortdescription" : "^#ffd700;Microsphere",
+  "race" : "generic",
+
+  "apexDescription" : "This is the strangest machine I have ever seen!",
+  "avianDescription" : "I want to grab whatever is inside!",
+  "floranDescription" : "Ssstrange ssphere of myssstery...",
+  "glitchDescription" : "Bewildered. This thing produces little people.",
+  "humanDescription" : "Cute as hell micros!",
+  "hylotlDescription" : "Oh come on! What is this cruelty?!",
+  "novakidDescription" : "Okay, strange machination. Yer have me attention.",
+  "avaliDescription" : "BOW BEFORE MY AWESOME MIGHT!!!",
+  "felineDescription" : "Imma just take one to go, or two. What the hell, gimme all of it!...~",
+  "protogenDescription" : "Now this is interesting!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Microsphere",
+        "subtitle" : "Micro Production Machine"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.8,
+    "items" : [
+      { "item" : "femalemicroblack" },
+      { "item" : "femalemicroblackhard" },
+      { "item" : "femalemicroblonde" },
+      { "item" : "femalemicroblondehard" },
+      { "item" : "femalemicroblue" },
+      { "item" : "femalemicrobluehard" },
+      { "item" : "femalemicrogreen" },
+      { "item" : "femalemicrogreenhard" },
+      { "item" : "femalemicrobrown" },
+      { "item" : "femalemicrobrownhard" },
+      { "item" : "femalemicroyellow" },
+      { "item" : "malemicroyellowhard" },
+      { "item" : "malemicroblack" },
+      { "item" : "malemicroblackhard" },
+      { "item" : "malemicroblue" },
+      { "item" : "malemicrobluehard" },
+      { "item" : "malemicrogreen" },
+      { "item" : "malemicrogreenhard" },
+      { "item" : "malemicrobrown" },
+      { "item" : "malemicrobrownhard" },
+      { "item" : "malemicroyellow" },
+      { "item" : "malemicroyellowhard" }    
+	]
+  },
+
+  "inventoryIcon" : "prodsetmicromachineicon.png",
+  "orientations" : [
+    {
+      "image" : "prodsetmicromachine.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    },
+    {
+      "image" : "prodsetmicromachine.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "animation"  :  "prodsetmicromachine.animation",
+  "animationParts"  :  {
+    "body"  :  "prodsetmicromachine.png"
+  },
+  
+  "scripts" : [ "/objects/vore/micromachine/prodsetmicromachine/prodsetmicromachine.lua" ],
+  "scriptDelta" : 3
+}

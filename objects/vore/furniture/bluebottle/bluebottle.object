@@ -1,0 +1,24 @@
+{
+  "objectName" : "prod-bluebottle",
+  "printable" : false,
+  "colonyTags" : ["sei"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "A blue bottle of a vodka of some kind.",
+  "shortdescription" : "A Bottle of Vari Shock",
+
+
+  "inventoryIcon" : "bluebottleicon.png",
+  "orientations" : [
+    {
+      "image" : "bluebottle.png",
+
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

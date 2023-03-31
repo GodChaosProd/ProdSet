@@ -1,0 +1,51 @@
+{
+  "objectName" : "lewdsign",
+  "colonyTags" : ["generic"],
+  "rarity" : "Rare",
+  "description" : "LEEWWWWD! (>M<)",
+  "shortdescription" : "Lewdness",
+  "race" : "generic",
+
+  "apexDescription" : "Uhh...",
+  "avianDescription" : "Wut?",
+  "floranDescription" : "What?",
+  "glitchDescription" : "Confused. What in the...?",
+  "humanDescription" : "What?",
+  "hylotlDescription" : "Gross...",
+  "novakidDescription" : "I don't get this 'un...",
+
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "inventoryIcon" : "lewdsignicon.png",
+  "orientations" : [
+    {
+      "image" : "lewdsign.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"]
+    },
+    {
+      "image" : "lewdsign.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"]
+    }
+  ],
+
+  "animation"  :  "lewdsign.animation",
+  "animationParts"  :  {
+    "body"  :  "lewdsign.png"
+  },
+  
+  "scripts" : [ "/objects/vore/furniture/lewdsign/lewdsign.lua" ],
+  "scriptDelta" : 3
+}

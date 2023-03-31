@@ -1,0 +1,185 @@
+{
+  "type" : "pred_dsei",
+  "baseType" : "villager",
+
+  "npcname" : "Sei",
+  
+  "identity" : {
+	"gender" : "female"
+  },
+
+  "scriptConfig" : { 
+	"questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : true,
+	  "graduation" : {
+	    "nextNpcType" : []
+	  }
+    },
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : {
+			"default" : {
+			  "default" : [
+							"Hands off my stuff!",
+							"What the hell are you doing to my stuff?!",
+							"Are you trying to bleak up my house?",
+							"Leave my house alone... after you put it all back.",
+							"Dummy! I need that thing!"
+			  ]
+			}
+		  },
+          "enclosedArea" : {
+			"default" : {
+			  "default" : [
+							"Hello! Drafty in here!",
+							"Are you deaf?! It's cold in here!",
+							"Quit punching holes in my house!",
+							"Are you a klutz? Quit destroying my walls!",
+							"Gimme a window at least, come on!"
+			  ]
+			}
+		  },
+          "otherDeed" : {
+			"default" : {
+			  "default" : [
+							"Things will get ugly if you force a roommate!",
+							"Unless if they're a good snack buddy, I can't have anyone else share my room!",
+							"You idiot! Don't bring other people into this!",
+							"I fly solo dude... don't bring another person into this.",
+							"I hate the noises of a crowd, so don't bring them in here!"
+			  ]
+			}
+		  },
+          "severe" : {
+			"default" : {
+			  "default" : [
+						"Maybe you'd like to see what happens to people who disrespect me.",
+						"No more nonsense.",
+						"Last chance!",
+						"Do you want something bitten off?"
+			  ]
+			}
+		  },
+          "final" : {
+			"default" : {
+			  "default" : [
+						"You are a terrible landlord. I'm done with you.",
+						"Next time, bring meat.",
+						"I'm through reasoning with you!",
+						"Call me when your antics are through."
+			  ]
+			}
+          }
+		},
+        "arrivedHome" : {
+          "beacon" : {
+			"default" : {
+			  "default" : [
+						"Is this my house? Well, thank you, I'm glad to be here!",
+						"Thanks for giving me a place to stay.~",
+						"A nice big house is always great, better than traveling everywhere.",
+						"Finally! A place to settle down!",
+						"You must be my landlord. What can I do for ya?"
+			  ]
+			}
+		  },
+          "rent" : {
+			"default" : {
+			  "default" : [
+						"Here ya are.~",
+						"Here's some stuff. Use it well.~",
+						"Here ya go!~",
+						"Use it well, my dear friend.~",
+						"I was gonna burn this, but you look like you want it.",
+						"I got some money from selling a few of my unwanted things.",
+						"Care to bring a snack next time?~"
+			  ]
+			}
+          }
+		}
+      },
+      "flee" : {
+        "helpme" : {
+		  "default" : {
+			"default" : [
+					"Go away! Get back from me!",
+					"I'll bite your shaft off!",
+					"No! Stop it! I don't like it!",
+					"I need some help here!",
+					"Please help me out!"
+			]
+		  }
+		},
+        "helpthem" : {
+		  "default" : {
+			"default" : [
+						"Go help kill it!",
+						"You deaf?!"
+			]
+		  }
+		},
+        "encourage" : {
+		  "default" : {
+			"default" : [
+					"Yes! Get it!",
+					"That's it, yeah!"
+			]
+		  }
+        },
+        "safe" : {
+		  "default" : {
+			"default" : [
+					"Whew. Glad to be out of that...",
+					"Great, now I can relax...",
+					"Time to Netflix and chill.~",
+					"Why was it so arousing?",
+					"Thank you, I can get peace and quiet now.~"
+			]
+		  }
+        }
+	  },
+      "converse" : {
+        "default" : {
+          "default" : [
+			"Care to join me for a treat?",
+			"Heya buddy.~",
+			"Please, come in.~",
+			"Hey? Can you come here for a minute?",
+			"Hey, over here.",
+			"Oooh, visitors! Come!",
+			"You seem fun to play with. Care for a little game?~",
+			"Hmm...",
+			"I'll be right here if you need anything from me.~"
+          ]
+        }
+      }
+    }
+  },
+  "disableWornArmor" : false,
+  "scriptDelta" : 5,
+
+  "scripts" : [ "/npcs/bmain.lua",
+				"/npcs/vore/sei/pred_dsei.lua" 
+  ],
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+			"head" : [
+              { "name" : "seihead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "seichest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            		"legs" : [
+              { "name" : "seilegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "dissolve",
+  "blockingStat" : "digestionImmunity",
+  "effectConfig" : {
+    "digestTime" : 100
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "dissolve.lua"
+  ],
+
+  "label" : "Being Dissolved",
+  "icon" : "/stats/icons/avslowburn.png"
+}

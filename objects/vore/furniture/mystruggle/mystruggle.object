@@ -1,0 +1,34 @@
+{
+  "objectName" : "mystruggle",
+  "colonyTags" : ["generic"],
+  "rarity" : "Rare",
+  "description" : "Prod is tired after all these damn hotfixes.",
+  "shortdescription" : "My Struggle",
+  "race" : "generic",
+
+  "apexDescription" : "Bad.",
+  "avianDescription" : "That's pretty bad.",
+  "floranDescription" : "Floran is put off...",
+  "glitchDescription" : "Grimace. I feel you, whoever you are.",
+  "humanDescription" : "I've seen better.",
+  "hylotlDescription" : "This is the worst art I have ever seen!",
+  "novakidDescription" : "I don't get it...",
+  "avaliDescription" : "What even is going on?",
+
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mystruggle.png", "fullbright" : true }, { "image" : "mystrugglelit.png" } ],
+      "imagePosition" : [-12, -12],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

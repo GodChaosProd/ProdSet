@@ -1,0 +1,249 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "belly" :  {
+		    "frames"  :  5,
+			"cycle"  : 1.3,
+		    "mode"  :  "loop"
+		  },
+		  "bellyalt1" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.5,
+		    "mode"  :  "transition",
+			"transition"  :  "belly"
+		  },
+		  "bellyalt2" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.5,
+		    "mode"  :  "transition",
+			"transition"  :  "belly"
+		  },
+		  "bellyalt3" :  {
+		    "frames"  :  9,
+			"cycle"  : 1.5,
+		    "mode"  :  "transition",
+			"transition"  :  "belly"
+		  },
+		  "belly2" :  {
+		    "frames"  :  5,
+			"cycle"  : 1.3,
+		    "mode"  :  "loop"
+		  },
+		  "belly3" :  {
+		    "frames"  :  5,
+			"cycle"  : 1.3,
+		    "mode"  :  "loop"
+		  },
+		  "padded"  :  {
+		    "frames"  :  1,
+			"cycle"  : 0.2,
+		    "mode"  :  "loop"
+		  },
+		  "swallow" :  {
+		    "frames"  :  9,
+			"cycle"  : 2.2,
+		    "mode"  :  "transition",
+			"transition"  :  "belly"
+		  },
+		  "idle1" :  {
+		    "frames"  :  4,
+			"cycle"  : 0.9,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "blink" :  {
+		    "frames"  :  3,
+			"cycle"  : 0.2,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "digest1" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.7,
+		    "mode"  :  "transition",
+			"transition"  :  "belly2"
+		  },
+		  "digest2" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.7,
+		    "mode"  :  "transition",
+			"transition"  :  "belly3"
+		  },
+		  "digest3" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.7,
+		    "mode"  :  "transition",
+			"transition"  :  "burp"
+		  },
+		  "reform1" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.7,
+		    "mode"  :  "transition",
+			"transition"  :  "belly3"
+		  },
+		  "reform2" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.7,
+		    "mode"  :  "transition",
+			"transition"  :  "belly2"
+		  },
+		  "reform3" :  {
+		    "frames"  :  2,
+			"cycle"  : 0.7,
+		    "mode"  :  "transition",
+			"transition"  :  "belly"
+		  },
+		  "regurg" :  {
+		    "frames"  :  4,
+			"cycle"  : 0.9,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "avswallow" :  {
+		    "frames"  :  10,
+			"cycle"  : 2.4,
+		    "mode"  :  "transition",
+			"transition"  :  "belly"
+		  },
+		  "avexit" :  {
+		    "frames"  :  7,
+			"cycle"  : 1.2,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "burp" :  {
+		    "frames"  :  4,
+			"cycle"  : 0.9,
+		    "mode"  :  "transition",
+			"transition"  :  "padded"
+		  }
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "belly"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:belly.<frame>"
+		      }
+		    },
+	        "bellyalt1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:bellyalt1.<frame>"
+		      }
+		    },
+	        "bellyalt2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:bellyalt2.<frame>"
+		      }
+		    },
+	        "bellyalt3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:bellyalt3.<frame>"
+		      }
+		    },
+	        "belly2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:belly2.<frame>"
+		      }
+		    },
+	        "belly3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:belly3.<frame>"
+		      }
+		    },
+			"swallow"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:swallow.<frame>"
+		       }
+		     },
+			"idle1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle1.<frame>"
+		       }
+		     },
+			"digest1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest1.<frame>"
+		       }
+		     },
+			"blink"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:blink.<frame>"
+		       }
+		     },
+			"digest2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest2.<frame>"
+		       }
+		     },
+			"digest3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest3.<frame>"
+		       }
+		     },
+			"padded"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:padded"
+		       }
+		     },
+			"reform1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:reform1.<frame>"
+		       }
+		     },
+			"reform2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:reform2.<frame>"
+		       }
+		     },
+			"reform3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:reform3.<frame>"
+		       }
+		     },
+			"regurg"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:regurg.<frame>"
+		       }
+		     },
+			"avswallow"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:avswallow.<frame>"
+		       }
+		     },
+			"avexit"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:avexit.<frame>"
+		       }
+		     },
+			"burp"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:burp.<frame>"
+		       }
+		     }
+		  }
+	    }
+   	  }
+    }
+  }
+}

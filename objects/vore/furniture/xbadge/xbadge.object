@@ -1,0 +1,26 @@
+{
+  "objectName" : "thexbadge",
+  "printable" : false,
+  "colonyTags" : ["sam"],
+  "rarity" : "Rare",
+  "description" : "An exclusive badge for a very exclusive Felin.",
+  "shortdescription" : "XXX Badge",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+
+  "inventoryIcon" : "xicon.png",
+  "orientations" : [
+    {
+      "image" : "xbadge.png",
+
+      "imagePosition" : [-1, -1],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [0, 0] ],
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "femalemicrogreen",
+  "rarity" : "Rare",
+  "price" : 5,
+  "inventoryIcon" : "femalemicrogreen.png",
+  "description" : "A female micro with green hair.",
+  "shortdescription" : "Female Micro",
+  "maxStack" : 5,
+  "effects" : [ [
+    {
+	"effect" : "wellfed",
+	"duration" : 25
+    }
+  ] ],
+
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

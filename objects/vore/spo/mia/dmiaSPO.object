@@ -1,0 +1,65 @@
+{
+  "objectName"  :  "prod-dmiaSPO",
+  "printable"  :  false,
+  "rarity"  :  "Rare",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "SPO"
+  },
+  "price"  :  20,
+  "description"  :  "An Avali that can eat and digest almost anything.",
+  "shortdescription"  :  "Mia",
+
+  "avaliDescription" : "Sup, Mia! I heard of your talents!",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "dissolve",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "avaliicon.png",
+  "orientations" : [
+    {
+	  "image" : "miaSPO.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 3],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]
+	},
+    {
+	  "image" : "miaSPO.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 3],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]
+	}
+  ],
+  
+  "animation"  :  "miaSPO.animation",
+  "animationCustom" : {
+    "sounds" : {
+	"swallow" : [ "/sfx/vore/mia/miaswallow.ogg" ],
+	"digest" : [ "/sfx/vore/mia/miadigest.ogg" ],
+        "belly" : [ "/sfx/vore/mia/miatransfer.ogg", "/sfx/vore/mia/miasquelch.ogg" ],
+	"release" : ["/sfx/vore/samira/samiregurg.ogg"],
+	"idle" : [ "/sfx/vore/mia/miagrowl.ogg", "/sfx/vore/bellysounds/digestidle.ogg", "/sfx/objects/groan1.ogg", "/sfx/objects/groan2.ogg", "/sfx/objects/groan3.ogg" ]
+	
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "miaSPO.png"
+  },
+  
+  "scripts" : [ "/objects/vore/spo/mia/dmiaSPO.lua" ],
+  "scriptDelta" : 3
+}

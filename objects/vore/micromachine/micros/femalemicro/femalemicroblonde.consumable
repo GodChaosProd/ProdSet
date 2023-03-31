@@ -1,0 +1,18 @@
+{
+  "itemName" : "femalemicroblonde",
+  "rarity" : "Rare",
+  "price" : 5,
+  "inventoryIcon" : "femalemicroblonde.png",
+  "description" : "A female micro with blonde hair.",
+  "shortdescription" : "Female Micro",
+  "maxStack" : 5,
+  "effects" : [ [
+    {
+	"effect" : "wellfed",
+	"duration" : 25
+    }
+  ] ],
+
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

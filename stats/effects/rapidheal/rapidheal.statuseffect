@@ -1,0 +1,14 @@
+{
+  "name" : "rapidheal",
+  "effectConfig" : {
+    "healTime" : 60
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "rapidheal.lua"
+  ],
+
+  "label" : "Rapidly Healing",
+  "icon" : "/stats/icons/enriched.png"
+}

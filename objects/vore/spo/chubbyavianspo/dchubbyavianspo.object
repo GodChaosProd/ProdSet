@@ -1,0 +1,74 @@
+{
+"objectName" : "dchubbyavianspo",
+  "rarity" : "Legendary",
+  "description" : "Despite her name, she can't really take to the skies... especially when she keeps on eating.",
+  "shortdescription" : "Hungry Eris",
+  "race" : "avian",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Hybrid SPO"
+  },
+  "price" : 20,
+  "printable" : false,
+  
+  "apexDescription" : "Her stomach is growling. How is she hungry?",
+  "avianDescription" : "This girl is making me nervous.",
+  "floranDescription" : "Avian not eat Floran, Floran eat avian!",
+  "glitchDescription" : "Alert. This female looks hungry enough to eat anything.",
+  "humanDescription" : "Oh, miss, are you hungry?",
+  "hylotlDescription" : "What is that disturbing noise?",
+  "novakidDescription" : "I don't like the way this lady's eyein' me.",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "slowburn",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "femaledicon.png",
+  "orientations" : [
+    {
+	  "image" : "chubbyavianspo.png:idle",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [4, 3],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-8, -16]
+	},
+    {
+	  "image" : "chubbyavianspo.png:idle",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [4, 3],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "chubbyavianspo.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/vore/mia/miaswallow.ogg" ],
+	  "stomach" : [ "/sfx/objects/groan1.ogg", "/sfx/objects/groan2.ogg", "/sfx/objects/groan3.ogg", "/sfx/vore/mia/miagrowl.ogg" ],
+	"regurg" : [ "/sfx/vore/samira/samiregurg.ogg" ],
+	"release" : ["/sfx/objects/predescape.ogg"],
+	"digest" : ["/sfx/vore/mia/miadigest.ogg"],
+        "burp" : ["/sfx/vore/samira/samiburp.ogg"],
+	"swallowav" : [ "/sfx/objects/squishing.ogg" ]
+	
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "chubbyavianspo.png"
+  },
+  
+  "scripts" : [ "/objects/vore/spo/chubbyavianspo/dchubbyavianspo.lua" ],
+  "scriptDelta" : 3
+}

@@ -1,0 +1,75 @@
+{
+  "objectName"  :  "taji",
+  "printable"  :  false,
+  "rarity"  :  "Rare",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "SPO"
+  },
+  "price"  :  20,
+  "description"  :  "This Avali stripper, name Taji, seems to want to give you a taste of thrills.",
+  "shortdescription"  :  "Taji",
+
+  "apexDescription" : "This feathery stripper is totally against Miniknog regulations...",
+  "avianDescription" : "What am I even seeing?",
+  "floranDescription" : "Ssspace chicken dancing? Ssshe sseems to flaunt everything.",
+  "glitchDescription" : "Sheepish. Should I feel lust because of this?",
+  "humanDescription" : "You go girl!",
+  "hylotlDescription" : "Quite a provocative dance, not dissimilar to what we do.",
+  "novakidDescription" : "Y'all getting a drink with that?",
+  "avaliDescription" : "Seems Taji got a decent job here...",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+  "avslowburn",	
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "tajiicon.png",
+  "orientations" : [
+    {
+	  "image" : "taji.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [-10, 20],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]
+	},
+    {
+	  "image" : "taji.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 20],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]	}
+  ],
+  
+  "animation"  :  "taji.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/vore/mia/miaswallow.ogg" ],
+	  "digest" : [ "/sfx/vore/mia/miagrowl.ogg" ],
+	  "release" : [ "/sfx/objects/predescape.ogg" ],
+	  "burp" : ["/sfx/vore/samira/samiburp.ogg"],
+          "gurgle" : [
+			"/sfx/vore/bellysounds/bellysound1.ogg", "/sfx/vore/bellysounds/bellysound2.ogg", "/sfx/vore/bellysounds/bellysound3.ogg", "/sfx/vore/bellysounds/bellysound4.ogg", "/sfx/vore/bellysounds/bellysound5.ogg", "/sfx/vore/bellysounds/bellysound6.ogg", "/sfx/vore/bellysounds/bellysound7.ogg", "/sfx/vore/bellysounds/bellysound8.ogg", "/sfx/vore/bellysounds/bellysound9.ogg", "/sfx/vore/bellysounds/bellysound10.ogg", "/sfx/vore/bellysounds/bellysound11.ogg", "/sfx/vore/bellysounds/bellysound12.ogg", "/sfx/vore/bellysounds/bellysound13.ogg", "/sfx/vore/bellysounds/bellysound14.ogg", "/sfx/vore/mia/miatransfer.ogg"
+		],
+	  "clench" : [ 
+		"/sfx/objects/groan1.ogg", "/sfx/objects/groan2.ogg", "/sfx/objects/groan3.ogg", "/sfx/vore/mia/miagrowl.ogg" 
+		]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "taji.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/taji/taji.lua" ],
+  "scriptDelta" : 3
+}

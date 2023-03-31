@@ -1,0 +1,134 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "gulp"  :  {
+		    "frames"  :  8,
+			"cycle"  :  1.8,
+			"mode"  :  "transition",
+			"transition"  :  "full"
+		  },
+		   "digest"  :  {
+		    "frames"  :  5,
+			"cycle"  :  1.2,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "full" :  {
+		    "frames"  :  4,
+			"cycle"  : 1.0,
+		    "mode"  :  "loop"
+		  },
+		  "idle1" :  {
+		    "frames"  :  12,
+			"cycle"  : 2.6,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+                  "exitmouth" :  {
+		    "frames"  :  8,
+			"cycle"  : 1.0,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "regurg" :  {
+		    "frames"  :  3,
+			"cycle"  : 0.8,
+		    "mode"  :  "transition",
+			"transition"  :  "gullet"
+		 },
+		  "gullet" :  {
+		    "frames"  :  5,
+			"cycle"  : 1.2,
+		    "mode"  :  "loop"
+		 },
+		  "gulletexit" :  {
+		    "frames"  :  3,
+			"cycle"  : 0.8,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+
+		  },
+		  "backdown" :  {
+		    "frames"  :  3,
+			"cycle"  : 0.8,
+		    "mode"  :  "transition",
+			"transition"  :  "full"
+
+		  }
+
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "gulp"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:gulp.<frame>"
+		      }
+		    },
+
+	        "full"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full.<frame>"
+		      }
+		    },
+                        "digest"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest.<frame>"
+		      }
+		    },
+			"idle1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle1.<frame>"
+		      }
+		    },
+			"exitmouth"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:exitmouth.<frame>"
+		      }
+		    },
+			"regurg"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:regurg.<frame>"
+		      }
+		    },
+			"gullet"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:gullet.<frame>"
+		      }
+		    },
+			"gulletexit"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:gulletexit.<frame>"
+		      }
+		    },
+			"backdown"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:backdown.<frame>"
+		      }
+		    }
+		  }
+	    }
+   	  }
+    }
+  }
+}

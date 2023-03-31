@@ -1,0 +1,18 @@
+{
+  "itemName" : "femalemicrobrownhard",
+  "rarity" : "Rare",
+  "price" : 5,
+  "inventoryIcon" : "femalemicrobrown.png",
+  "description" : "A female micro with brown hair. Now crunchy.",
+  "shortdescription" : "Female Micro",
+  "maxStack" : 5,
+  "effects" : [ [
+    {
+	"effect" : "wellfed",
+	"duration" : 25
+    }
+  ] ],
+
+  "emote" : "",
+  "emitters" : [ "eating" ]
+}

@@ -1,0 +1,52 @@
+{
+  "objectName" : "stomachiconsign",
+  "colonyTags" : ["generic"],
+  "rarity" : "Rare",
+  "description" : "Just a pic of a stomach.",
+  "shortdescription" : "Viscera",
+  "race" : "generic",
+
+  "apexDescription" : "Uhh...",
+  "avianDescription" : "Wut?",
+  "floranDescription" : "What?",
+  "glitchDescription" : "Confused. What in the...?",
+  "humanDescription" : "What?",
+  "hylotlDescription" : "H-wha?",
+  "novakidDescription" : "I don't get this 'un...",
+  "avaliDescription" : "What I'd kill to be there.~",
+
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "inventoryIcon" : "stomachiconsignicon.png",
+  "orientations" : [
+    {
+      "image" : "stomachiconsign.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"]
+    },
+    {
+      "image" : "stomachiconsign.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"]
+    }
+  ],
+
+  "animation"  :  "stomachiconsign.animation",
+  "animationParts"  :  {
+    "body"  :  "stomachiconsign.png"
+  },
+  
+  "scripts" : [ "/objects/vore/furniture/stomachiconsign/stomachiconsign.lua" ],
+  "scriptDelta" : 3
+}

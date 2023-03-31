@@ -1,0 +1,15 @@
+{
+  "name" : "juicesoaked",
+  "blockingStat" : "wetImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "juicesoaked.lua"
+  ],
+
+  "animationConfig" : "juicesoaked.animation",
+
+  "label" : "Soaked Up",
+  "icon" : "/stats/icons/juicesoaked.png"
+}

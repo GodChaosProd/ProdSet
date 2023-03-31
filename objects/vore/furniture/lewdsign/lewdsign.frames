@@ -1,0 +1,12 @@
+{
+  "frameGrid" : {
+    "size" : [18, 18],
+    "dimensions" : [10, 4],
+    "names" : [
+      [ "idle", "open.1", "open.2", "open.3", "open.4", "open.5", "open.6", "open.7", "idleopen", "blank" ],
+      [ "gush.1", "gush.2", "gush.3", "gush.4", "gush.5", "gush.6", "gush.7", "gush.8", "gush.9", "gush.10" ],
+      [ "close.1", "close.2", "blank", "blank", "blank", "blank", "blank", "blank", "blank", "blank" ],
+      [ "jam.1", "jam.2", "jam.3", "jam.4", "jam.5", "jam.6", "jam.7", "jam.8", "jam.9", "jam.10" ]
+    ]
+  }
+}

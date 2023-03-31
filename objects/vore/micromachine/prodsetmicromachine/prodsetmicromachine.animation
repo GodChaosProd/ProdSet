@@ -1,0 +1,57 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "flashblue"  :  {
+		    "frames"  :  4,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "flashred"  :  {
+		    "frames"  :  4,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+
+		  }
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "flashblue"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:flashblue.<frame>"
+		      }
+		    },
+	        "flashred"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:flashred.<frame>"
+
+		      }
+		    }
+		  }
+	    }
+   	  }
+    }
+  }
+}

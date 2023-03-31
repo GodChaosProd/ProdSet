@@ -1,0 +1,14 @@
+{
+  "name" : "ps-voreheal",
+  "effectConfig" : {
+    "healTime" : 60
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "voreheal.lua"
+  ],
+
+  "label" : "Slowly Healing",
+  "icon" : "/stats/icons/avslowburn.png"
+}

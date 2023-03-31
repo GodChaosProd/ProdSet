@@ -1,0 +1,44 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		   "clench"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  }
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "clench"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:clench.<frame>"
+		      }
+		    }
+		  }
+	    }
+   	  }
+    }
+  }
+}

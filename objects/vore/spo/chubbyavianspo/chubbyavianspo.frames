@@ -1,0 +1,18 @@
+{
+  "frameGrid" : {
+    "size" : [32, 32],
+    "dimensions" : [10, 10],
+    "names" : [
+      [ "idle", "swallow.1", "swallow.2", "swallow.3", "swallow.4", "swallow.5", "swallow.6", "swallow.7", "swallow.8", "swallow.9" ],
+      [ "belly.1", "belly.2", "belly.3", "belly.4", "belly.5", "bellyalt1.1", "bellyalt1.2", "bellyalt2.1", "bellyalt2.2", "blank" ],
+      [ "belly2.1", "belly2.2", "belly2.3", "belly2.4", "belly2.5", "blink.1", "blink.2", "blink.3", "blank", "blank" ],
+      [ "belly3.1", "belly3.2", "belly3.3", "belly3.4", "belly3.5", "idle1.1", "idle1.2", "idle1.3", "idle1.4", "blank" ],
+      [ "reform1.1", "reform1.2", "reform2.1", "reform2.2", "reform3.1", "reform3.2", "padded", "blank", "blank", "blank" ],
+      [ "digest1.1", "digest1.2", "digest2.1", "digest2.2", "digest3.1", "digest3.2", "blank", "blank", "blank", "blank" ],
+      [ "regurg.1", "regurg.2", "regurg.3", "regurg.4", "blank", "blank", "burp.1", "burp.2", "burp.3", "burp.4" ],
+      [ "avswallow.1", "avswallow.2", "avswallow.3", "avswallow.4", "avswallow.5", "avswallow.6", "avswallow.7", "avswallow.8", "avswallow.9", "avswallow.10" ],
+      [ "avexit.1", "avexit.2", "avexit.3", "avexit.4", "avexit.5", "avexit.6", "avexit.7", "blank", "blank", "blank" ],
+      [ "bellyalt3.1", "bellyalt3.2", "bellyalt3.3", "bellyalt3.4", "bellyalt3.5", "bellyalt3.6", "bellyalt3.7", "bellyalt3.8", "bellyalt3.9", "blank" ]
+    ]
+  }
+}

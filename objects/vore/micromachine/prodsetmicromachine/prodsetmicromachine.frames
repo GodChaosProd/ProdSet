@@ -1,0 +1,10 @@
+{
+  "frameGrid" : {
+    "size" : [16, 16],
+    "dimensions" : [5, 2],
+    "names" : [
+      [ "idle", "flashblue.1", "flashblue.2", "flashblue.3", "flashblue.4" ],
+      [ "blank", "flashred.1", "flashred.2", "flashred.3", "flashred.4" ]
+    ]
+  }
+}

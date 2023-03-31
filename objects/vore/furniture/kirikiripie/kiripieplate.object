@@ -1,0 +1,25 @@
+{
+  "objectName" : "kiripieplate",
+  "printable" : false,
+  "colonyTags" : ["renii"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "Just a plate full of warm Kirikiri Pie, unattended and vulnerable to any would-be dessert thieves.~",
+  "shortdescription" : "Plate of Kirikiri Pie",
+
+  "avaliDescription" : "An Avali can go nuts over this dessert. Wonder who will steal it...~",
+
+  "inventoryIcon" : "kiripieicon.png",
+  "orientations" : [
+    {
+      "image" : "kiripie.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

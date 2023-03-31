@@ -1,0 +1,14 @@
+{
+  "name" : "slowheal",
+  "effectConfig" : {
+    "healTime" : 60
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "slowheal.lua"
+  ],
+
+  "label" : "Slowly Healing",
+  "icon" : "/stats/icons/slowburn.png"
+}

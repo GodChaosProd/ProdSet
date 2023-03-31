@@ -1,0 +1,182 @@
+{
+  "type" : "pred_sam",
+  "baseType" : "villager",
+
+  "npcname" : "Sam",
+  
+  "identity" : {
+	"gender" : "female"
+  },
+
+  "scriptConfig" : { 
+	"questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : true,
+	  "graduation" : {
+	    "nextNpcType" : []
+	  }
+    },
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : {
+			"default" : {
+			  "default" : [
+							"Hands off!",
+							"What the hell are you doing to my stuff?!",
+							"I ought to bap you for that!",
+							"Dummy! I need that!"
+			  ]
+			}
+		  },
+          "enclosedArea" : {
+			"default" : {
+			  "default" : [
+							"Hello! Drafty in here!",
+							"Leave my house alone... after you put it all back.",
+							"Quit punching holes in my house!",
+							"Gimme a window at least, come on!"
+			  ]
+			}
+		  },
+          "otherDeed" : {
+			"default" : {
+			  "default" : [
+							"Visitors are fine, but a roommate is a big no-no!",
+							"Damnit! I can't have anyone else share my room!",
+							"Are you an idiot?!",
+							"I fly solo dude... don't bring another person into this.",
+							"The room is mine, solely for me."
+			  ]
+			}
+		  },
+          "severe" : {
+			"default" : {
+			  "default" : [
+						"You need to fix this up right now!",
+						"Stop it!",
+						"Last chance!",
+						"Chop-chop! Don't dilly dally!"
+			  ]
+			}
+		  },
+          "final" : {
+			"default" : {
+			  "default" : [
+						"You are a terrible landlord. I'm done with you.",
+						"Enough! I am heading back to Dewdrop!",
+						"The big city is better than here...",
+						"I'm through reasoning with you!"
+			  ]
+			}
+          }
+		},
+        "arrivedHome" : {
+          "beacon" : {
+			"default" : {
+			  "default" : [
+						"Is this my house? Well, thank you, I'm glad to be here!",
+						"Thanks for giving me a place to stay.~",
+						"A nice big house is always great, better than a small apartment.",
+						"I guess this is my place to stay. Cozy.~",
+						"You must be my landlord. What can I do for ya?"
+			  ]
+			}
+		  },
+          "rent" : {
+			"default" : {
+			  "default" : [
+						"Nyah?~",
+						"Here's the money I owe ya.~",
+						"Money to pay and to feed. Here ya go!~",
+						"Here. Consider this a gift.~",
+						"I don't want this. You can take it off my hands.",
+						"I got some money from selling a few of my old things."
+			  ]
+			}
+          }
+		}
+      },
+      "flee" : {
+        "helpme" : {
+		  "default" : {
+			"default" : [
+					"Go away! Get back from me!",
+					"Stay back, you fiend!",
+					"No! Stop it! I don't like it!",
+					"I need some help here!",
+					"Please help me out!"
+			]
+		  }
+		},
+        "helpthem" : {
+		  "default" : {
+			"default" : [
+						"Its not going to kill itself! Go kill it!",
+						"Stop them!"
+			]
+		  }
+		},
+        "encourage" : {
+		  "default" : {
+			"default" : [
+					"I'll be back for you later.",
+					"Why are you fighting me? You can't beat a damn housecat!"
+			]
+		  }
+        },
+        "safe" : {
+		  "default" : {
+			"default" : [
+					"Well.. that was annoying.",
+					"Great, now I can go back to bed...",
+					"Time to chill out.",
+					"I was getting worried it wouldn't turn out well.",
+					"Thank you, I'm glad it's quiet now."
+			]
+		  }
+        }
+	  },
+      "converse" : {
+        "default" : {
+          "default" : [
+			"Care to join me?",
+			"Are you falling asleep? I can let you sleep here if you like.",
+			"I'm really fluffy.~",
+			"Hey? Can you come here for a minute?",
+			"Hey, over here.",
+			"Oooh, visitors!",
+			"You seem fun to play with.",
+			"Hmm...",
+			"You need some help?"
+          ]
+        }
+      }
+    }
+  },
+  "disableWornArmor" : false,
+  "scriptDelta" : 5,
+
+  "scripts" : [ "/npcs/bmain.lua",
+				"/npcs/vore/sam/pred_sam.lua" 
+  ],
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+			"head" : [
+              { "name" : "samhead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "samchest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "samlegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

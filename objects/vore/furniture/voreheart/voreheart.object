@@ -1,0 +1,34 @@
+{
+  "objectName" : "prodsetvoreheart",
+  "colonyTags" : ["generic"],
+  "rarity" : "Rare",
+  "description" : "Lovers of vore! Bring us your corporeal forms!",
+  "shortdescription" : "Heart of Desire",
+  "race" : "generic",
+
+  "apexDescription" : "I suddenly have the urge to leap in there...",
+  "avianDescription" : "A maw in a heart?",
+  "floranDescription" : "Floran ssshall devour the heart!!",
+  "glitchDescription" : "Lustful. Yes, my lord.~",
+  "humanDescription" : "Woah! I wanna leap in that maw!",
+  "hylotlDescription" : "Do I taste like fish sticks to it?~",
+  "novakidDescription" : "I think I'd taste like spicy peppers to it.",
+  "avaliDescription" : "I- uh... don't taste like chicken, right? RIGHT?!",
+
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "voreheart.png", "fullbright" : true }, { "image" : "voreheartlit.png" } ],
+      "imagePosition" : [-12, -12],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

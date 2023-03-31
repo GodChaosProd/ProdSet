@@ -1,0 +1,18 @@
+{
+  "itemName" : "malemicrogreen",
+  "rarity" : "Rare",
+  "price" : 5,
+  "inventoryIcon" : "malemicrogreen.png",
+  "description" : "A male micro with green hair.",
+  "shortdescription" : "Male Micro",
+  "maxStack" : 5,
+  "effects" : [ [
+    {
+	"effect" : "wellfed",
+	"duration" : 25
+    }
+  ] ],
+
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

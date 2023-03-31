@@ -1,0 +1,40 @@
+{
+  "frameGrid"  :  {
+	"size"  :  [40, 40],
+	"dimensions"  :  [8, 31],
+	"names"  :  [
+		[ "idle", "digest1.1", "digest1.2", "digest2.1", "digest2.2", "digest3.1", "digest3.2", "digest4.1" ],
+		[ "digest4.2", "digest5.1", "digest5.2", "digest5.3", "digest5.4", "digest5.5", "digest5.6", "digest5.7" ],
+		[ "full1.1", "full1.2", "full1.3", "full1.4", "full1.5", "full1.6", "full1.7", "full1.8" ],
+		[ "full2.1", "full2.2", "full2.3", "full2.4", "full2.5", "full2.6", "full2.7", "full2.8" ],		
+		[ "full3.1", "full3.2", "full3.3", "full3.4", "full3.5", "full3.6", "full3.7", "full3.8" ],
+		[ "full4.1", "full4.2", "full4.3", "full4.4", "full4.5", "clench.1", "clench.2", "clench.3" ],
+		[ "struggle.1", "struggle.2", "struggle.3", "struggle.4", "struggle.5", "struggle.6", "struggle.7", "struggle.8" ],
+		[ "full5.1", "full5.2", "full5.3", "full5.4", "full5.5", "burp.1", "burp.2", "burp.3" ],
+		[ "idle1.1", "idle1.2", "idle1.3", "idle1.4", "idle1.5", "idle1.6", "idle1.7", "idle1.8" ],
+		[ "idle2.1", "idle2.2", "idle2.3", "idle2.4", "idle2.5", "idle2.6", "idle2.7", "idle2.8" ],
+		[ "seduceov.1", "seduceov.2", "seduceov.3", "seduceov.4", "seduceov.5", "seduceov.6", "blank", "blank" ],
+		[ "blank", "blank", "blink.1", "blink.2", "blink.3", "swallowov.1", "swallowov.2", "swallowov.3" ],
+		[ "swallowov.4", "swallowov.5", "swallowov.6", "swallowov.7", "swallowov.8", "swallowov.9", "swallowov.10", "swallowov.11" ],
+		[ "release.1", "release.2", "release.3", "release.4", "release.5", "digested", "blank", "blank" ],
+		[ "releasemouth.1", "releasemouth.2", "releasemouth.3", "releasemouth.4", "releasemouth.5", "blank", "blank", "blank" ],
+		[ "seducetail.1", "seducetail.2", "seducetail.3", "seducetail.4", "seducetail.5", "seducetail.6", "blank", "blank" ],
+		[ "digestedbounce.1", "digestedbounce.2", "digestedbounce.3", "digestedbounce.4", "blank", "swallowtail.1", "swallowtail.2", "swallowtail.3" ],
+		[ "swallowtail.4", "swallowtail.5", "swallowtail.6", "swallowtail.7", "swallowtail.8", "swallowtail.9", "swallowtail.10", "swallowtail.11" ],
+		[ "swallowav.1", "swallowav.2", "swallowav.3", "swallowav.4", "swallowav.5", "swallowav.6", "swallowav.7", "blank" ],
+		[ "idleub", "digest1ub.1", "digest1ub.2", "digest2ub.1", "digest2ub.2", "digest3ub.1", "digest3ub.2", "digest4ub.1" ],
+		[ "digest4ub.2", "digest5ub.1", "digest5ub.2", "digest5ub.3", "digest5ub.4", "digest5ub.5", "digest5ub.6", "digest5ub.7" ],
+		[ "full1ub.1", "full1ub.2", "full1ub.3", "full1ub.4", "full1ub.5", "full1ub.6", "full1ub.7", "full1ub.8" ],
+		[ "full2ub.1", "full2ub.2", "full2ub.3", "full2ub.4", "full2ub.5", "full2ub.6", "full2ub.7", "full2ub.8" ],		
+		[ "full3ub.1", "full3ub.2", "full3ub.3", "full3ub.4", "full3ub.5", "full3ub.6", "full3ub.7", "full3ub.8" ],
+		[ "full4ub.1", "full4ub.2", "full4ub.3", "full4ub.4", "full4ub.5", "blank", "blank", "blank" ],
+		[ "full5ub.1", "full5ub.2", "full5ub.3", "full5ub.4", "full5ub.5", "blank", "blank", "blank" ],
+		[ "idle1ub.1", "idle1ub.2", "idle1ub.3", "idle1ub.4", "idle1ub.5", "idle1ub.6", "idle1ub.7", "idle1ub.8" ],
+		[ "idle2ub.1", "idle2ub.2", "idle2ub.3", "idle2ub.4", "idle2ub.5", "idle2ub.6", "idle2ub.7", "idle2ub.8" ],
+		[ "seduceub.1", "seduceub.2", "blinkub.1", "blinkub.2", "blinkub.3", "swallowub.1", "swallowub.2", "swallowub.3" ],
+		[ "swallowub.4", "swallowub.5", "swallowub.6", "swallowub.7", "swallowub.8", "swallowub.9", "swallowub.10", "swallowub.11" ],
+		[ "releaseub.1", "releaseub.2", "releaseub.3", "releaseub.4", "releaseub.5", "digestedub", "blank", "blank" ]
+	]	
+
+  }
+}

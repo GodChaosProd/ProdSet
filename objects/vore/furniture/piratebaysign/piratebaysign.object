@@ -1,0 +1,52 @@
+{
+  "objectName" : "prodsetpiratebaylight",
+  "colonyTags" : ["pretty","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "printable" : false,
+  "description" : "These penguins seem proud to mark it.",
+  "shortdescription" : "Pirate Bay Sign",
+
+  "lightColor" : [255, 3, 226],
+  "lightPosition" : [0, 1],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.725,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+
+  "apexDescription" : "They keep this place a secret?",
+  "avianDescription" : "A good way to hide illegal trades",
+  "floranDescription" : "Sstubby birds have an underground bar now?",
+  "glitchDescription" : "Curious. Is this broken, or is it like this by design?",
+  "humanDescription" : "Ooh, a bar! With penguins, and... trades.",
+  "hylotlDescription" : "Is piracy involved here?",
+  "novakidDescription" : "They just got rowdier.",
+  "avaliDescription" : "What secrets do these slippery penguins hold?",
+
+  "inventoryIcon" : "piratebaysignicon.png",
+  "orientations" : [
+    {
+      "image" : "piratebaysign.png:<color>.<frame>",
+      "imagePosition" : [-32, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "piratebaysign.animation",
+  "animationParts" : {
+    "bg" : "piratebaysign.png",
+    "fg" : "piratebaysignlit.png"
+  },
+  "animationPosition" : [-32, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

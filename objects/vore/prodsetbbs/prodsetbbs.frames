@@ -1,0 +1,14 @@
+{
+  "frameGrid" : {
+    "size" : [16, 16],
+    "dimensions" : [5, 6],
+    "names" : [
+      [ "idle", "inflate.1", "inflate.2", "inflate.3", "blank" ],
+      [ "gush.1", "gush.2", "gush.3", "gush.4", "gush.5" ],
+      [ "gush.6", "gush.7", "gush.8", "gush.9", "gush.10" ],
+      [ "squeeze.1", "squeeze.2", "squeeze.3", "blank", "idlefold" ],
+      [ "open.1", "open.2", "open.3", "open.4", "open.5" ],
+      [ "fold.1", "fold.2", "fold.3", "fold.4", "fold.5" ]
+    ]
+  }
+}

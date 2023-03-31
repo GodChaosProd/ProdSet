@@ -1,0 +1,20 @@
+{
+  "itemName" : "femalemicroyellowhard",
+  "rarity" : "Rare",
+  "price" : 5,
+  "inventoryIcon" : "femalemicroyellow.png",
+  "description" : "A female micro with yellow hair. Now crunchy.",
+  "shortdescription" : "Female Micro",
+  "maxStack" : 5,
+  "effects" : [ [
+    {
+	"effect" : "wellfed",
+	"duration" : 25
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emote" : "",
+  "emitters" : [ "eating" ]
+}

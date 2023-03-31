@@ -1,0 +1,65 @@
+{
+  "objectName" : "prodsetbbs",
+  "rarity" : "Legendary",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "^#de5499;V-Pod"
+  },
+  "price" : 3000,
+  "printable" : false,
+  "description" : "Stick your hand inside the hole to pull out some wickedly lewd stuff.~",
+  "shortdescription" : "^#de5499;Set Pod",
+  "race" : "generic",
+
+  "apexDescription" : "This is the strangest station I have ever seen!",
+  "avianDescription" : "It looks slimy in there! I want to grab whatever is inside!",
+  "floranDescription" : "Ssslimy pod...",
+  "glitchDescription" : "Bewildered. This thing contains other things bigger than itself!",
+  "humanDescription" : "Me and my damn curiosity reaching into stuff I shouldn't!",
+  "hylotlDescription" : "I am not sticking my hand in that!",
+  "novakidDescription" : "It's all slimy and stuff...",
+  "avaliDescription" : "I am gonna regret reaching in there...",
+  "felinDescription" : "That is rather lewd...~",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/prodsetbbs.config",
+    "filter" : [ "prodsetbbs" ]
+  },
+
+  "inventoryIcon" : "prodsetbbsicon.png",
+  "orientations" : [
+    {
+      "image" : "prodsetbbs.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    },
+    {
+      "image" : "prodsetbbs.png:idle",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "animation"  :  "prodsetbbs.animation",
+  "animationCustom" : {
+    "sounds" : {
+	"squish" : [ "/sfx/vore/prodsetbbs/setpodsquish.ogg" ]
+    }
+  },
+  "animationParts"  :  {
+    "body"  :  "prodsetbbs.png"
+  },
+  
+  "scripts" : [ "/objects/vore/prodsetbbs/prodsetbbs.lua" ],
+  "scriptDelta" : 3
+}

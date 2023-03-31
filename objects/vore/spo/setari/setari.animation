@@ -1,0 +1,237 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "digest1"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "full2"
+		  },
+		   "digest2"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "full3"
+		  },
+		  "reform1"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "full3"
+		  },
+		  "reform2"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "full2"
+		  },
+		  "reform3"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		  "digest3"  :  {
+		    "frames"  :  20,
+			"cycle"  :  3.9,
+			"mode"  :  "transition",
+			"transition"  :  "after"
+		  },
+		  "full1" :  {
+		    "frames"  :  4,
+			"cycle"  : 1.0,
+		    "mode"  :  "loop"
+		  },
+		  "full2" :  {
+		    "frames"  :  4,
+			"cycle"  : 1.0,
+		    "mode"  :  "loop"
+		  },
+		  "full3" :  {
+		    "frames"  :  7,
+			"cycle"  : 1.4,
+		    "mode"  :  "loop"
+		  },
+		  "idle1" :  {
+		    "frames"  :  13,
+			"cycle"  : 2.5,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "idle2" :  {
+		    "frames"  :  9,
+			"cycle"  : 1.7,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "swallow" :  {
+		    "frames"  :  9,
+			"cycle"  : 1.7,
+		    "mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		"release" :  {
+		    "frames"  :  9,
+			"cycle"  : 1.7,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "after" :  {
+		    "frames"  :  6,
+			"cycle"  : 1.2,
+		    "mode"  :  "loop"
+		  },
+		  "after2" :  {
+		    "frames"  :  7,
+			"cycle"  : 1.3,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "throatintro"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "throat"
+		  },
+		  "throat" :  {
+		    "frames"  :  6,
+			"cycle"  : 1.2,
+		    "mode"  :  "loop"
+		  },
+		  "throatend"  :  {
+		    "frames"  :  4,
+			"cycle"  :  0.7,
+			"mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		  "escape" :  {
+		    "frames"  :  4,
+			"cycle"  : 0.7,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  }
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "digest1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest1.<frame>"
+		      }
+		    },
+			"digest2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest2.<frame>"
+		      }
+		    },
+	        "reform1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:reform1.<frame>"
+		      }
+		    },
+	        "reform2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:reform2.<frame>"
+		      }
+		    },
+	        "reform3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:reform3.<frame>"
+		      }
+		    },
+	        "digest3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest3.<frame>"
+		      }
+		    },
+	        "full1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full1.<frame>"
+		      }
+		    },
+	        "full2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full2.<frame>"
+		      }
+		    },
+	        "full3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full3.<frame>"
+		      }
+			},
+			"idle1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle1.<frame>"
+		      }
+		    },
+			"idle2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle2.<frame>"
+		      }
+		    },
+			"swallow"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:swallow.<frame>"
+		      }
+ 		    },
+			"release"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:release.<frame>"
+		      }
+ 		    },
+			"after"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:after.<frame>"
+		      }
+ 		    },
+			"after2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:after2.<frame>"
+		      }
+ 		    },
+			"throatintro"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:throatintro.<frame>"
+		      }
+ 		    },
+			"throat"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:throat.<frame>"
+		      }
+ 		    },
+			"throatend"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:throatend.<frame>"
+		      }
+ 		    },
+			"escape"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:escape.<frame>"
+		      }
+		    }
+		  }
+	    }
+   	  }
+    }
+  }
+}

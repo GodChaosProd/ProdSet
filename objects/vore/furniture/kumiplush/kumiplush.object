@@ -1,0 +1,37 @@
+{
+  "objectName" : "kumiplush",
+  "colonyTags" : ["sam","pretty"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A cuddly Avali plushie. This one is named 'Kumi.'",
+  "shortdescription" : "Plush Kumi",
+  "race" : "avali",
+
+  "apexDescription" : "An adorable cuddly avali.",
+  "avianDescription" : "How cute, a cuddly toy avali.",
+  "floranDescription" : "Fluffy toy is ssstaring at Floran.",
+  "glitchDescription" : "Excited. This delightful avali is almost too much!",
+  "humanDescription" : "I just wanna cuddle this avali forever.",
+  "hylotlDescription" : "Shriek! A wonderful avali plushie. I need this one!",
+  "novakidDescription" : "This lil' guy is pretty cute, I guess.",
+  "avaliDescription" : "Aww... This is just too cute!",
+
+  "inventoryIcon" : "kumiplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kumiplush.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "scripts" : [ "/objects/vore/furniture/kumiplush/kumiplush.lua" ],
+  "scriptDelta" : 300,
+  "npcToy" : {}
+}

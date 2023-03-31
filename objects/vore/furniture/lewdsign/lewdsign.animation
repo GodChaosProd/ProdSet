@@ -1,0 +1,86 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "idleopen"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "open"  :  {
+		    "frames"  :  7,
+			"cycle"  :  0.9,
+			"mode"  :  "transition",
+			"transition"  :  "idleopen"
+		  },
+		   "gush"  :  {
+		    "frames"  :  10,
+			"cycle"  :  1.2,
+			"mode"  :  "transition",
+			"transition"  :  "idleopen"
+		  },
+		  "close"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		   "jam"  :  {
+		    "frames"  :  10,
+			"cycle"  :  1.2,
+			"mode"  :  "transition",
+			"transition"  :  "idleopen"
+		  }
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "idleopen"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idleopen"
+		      }
+		    },
+			"gush"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:gush.<frame>"
+		      }
+		    },
+	        "close"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:close.<frame>"
+		      }
+		    },
+	        "open"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:open.<frame>"
+		      }
+		    },
+	        "jam"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:jam.<frame>"
+		      }
+		    }
+		  }
+	    }
+   	  }
+    }
+  }
+}

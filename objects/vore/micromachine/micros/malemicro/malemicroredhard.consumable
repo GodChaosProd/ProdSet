@@ -1,0 +1,18 @@
+{
+  "itemName" : "malemicroredhard",
+  "rarity" : "Rare",
+  "price" : 5,
+  "inventoryIcon" : "malemicrored.png",
+  "description" : "A male micro with red hair. Now crunchy.",
+  "shortdescription" : "Male Micro",
+  "maxStack" : 5,
+  "effects" : [ [
+    {
+	"effect" : "wellfed",
+	"duration" : 25
+    }
+  ] ],
+
+  "emote" : "",
+  "emitters" : [ "eating" ]
+}

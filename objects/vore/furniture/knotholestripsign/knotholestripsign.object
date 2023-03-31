@@ -1,0 +1,33 @@
+{
+  "objectName" : "knotholestripsign",
+  "colonyTags" : ["generic"],
+  "rarity" : "Rare",
+  "description" : "A simple sign fit for a strip club.",
+  "shortdescription" : "Knot Hole Sign",
+  "race" : "generic",
+
+  "apexDescription" : "Uhh...",
+  "avianDescription" : "Okay, moving on...",
+  "floranDescription" : "Floran is confused...",
+  "glitchDescription" : "Confused. Why does this exist?",
+  "humanDescription" : "Not dissimilar to our dance clubs. We were so dirty back then...",
+  "hylotlDescription" : "Okay, this is too similar to our dance clubs...",
+  "novakidDescription" : "A dance club? Guess I could go for a hoedown.",
+
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "clubsignstrip.png", "fullbright" : true }, { "image" : "clubsignstriplit.png" } ],
+      "imagePosition" : [-24, -21],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

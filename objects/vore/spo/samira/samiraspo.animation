@@ -1,0 +1,490 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "digest1"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full2"
+		  },
+		   "digest2"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full3"
+		  },
+		  "digest3"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full4"
+		  },
+		  "digest4"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full5"
+		  },
+		  "digest5"  :  {
+		    "frames"  :  7,
+			"cycle"  :  1.4,
+			"mode"  :  "transition",
+			"transition"  :  "burp"
+		  },
+		  "full1" :  {
+		    "frames"  :  8,
+		    "cycle"  :  2.0,
+		    "mode"  :  "loop"
+		  },
+		  "full2" :  {
+		    "frames"  :  8,
+		    "cycle"  :  2.0,
+		    "mode"  :  "loop"
+		  },
+		  "full3" :  {
+		    "frames"  :  8,
+		    "cycle"  :  2.0,
+		    "mode"  :  "loop"
+		  },
+		  "full4" :  {
+		    "frames"  :  5,
+		    "cycle"  :  1.2,
+		    "mode"  :  "loop"
+		  },
+		  "clench" :  {
+		    "frames"  :  3,
+			"cycle"  : 0.3,
+		    "mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		  "struggle" :  {
+		    "frames"  :  8,
+			"cycle"  : 1.8,
+		    "mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		  "full5" :  {
+		    "frames"  :  5,
+		    "cycle"  :  1.2,
+		    "mode"  :  "loop"
+		  },
+		  "burp" :  {
+		    "frames"  :  3,
+			"cycle"  : 0.6,
+		    "mode"  :  "transition",
+			"transition"  :  "digested"
+		  },
+		  "idle1" :  {
+		    "frames"  :  8,
+			"cycle"  : 1.6,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "idle2" :  {
+		    "frames"  :  8,
+			"cycle"  : 1.6,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "seduceov"  :  {
+		    "frames"  :  6,
+			"cycle"  :  1.2,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "blink"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.6,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "swallowov" :  {
+		    "frames"  :  11,
+			"cycle"  : 2.2,
+		    "mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		  "release" :  {
+		    "frames"  :  5,
+			"cycle"  : 1.0,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "releasemouth" :  {
+		    "frames"  :  5,
+			"cycle"  : 1.0,
+		    "mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "digested" :  {
+		    "frames"  :  1,
+		    "mode"  :  "loop"
+		  },
+		  "seducetail"  :  {
+		    "frames"  :  6,
+			"cycle"  :  1.2,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "digestedbounce"  :  {
+		    "frames"  :  4,
+			"cycle"  :  1.0,
+			"mode"  :  "transition",
+			"transition"  :  "digested"
+		  },
+		  "swallowtail" :  {
+		    "frames"  :  11,
+			"cycle"  : 2.2,
+		    "mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		  "swallowav" :  {
+		    "frames"  :  7,
+			"cycle"  : 1.4,
+		    "mode"  :  "transition",
+			"transition"  :  "full1"
+		  },
+		  "idleub"  :  {
+		    "frames"  :  1,
+		    "mode"  :  "end"
+		  },
+		  "digest1ub"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full2ub"
+		  },
+		   "digest2ub"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full3ub"
+		  },
+		  "digest3ub"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full4ub"
+		  },
+		  "digest4ub"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "full5ub"
+		  },
+		  "digest5ub"  :  {
+		    "frames"  :  7,
+			"cycle"  :  1.4,
+			"mode"  :  "transition",
+			"transition"  :  "digestedub"
+		  },
+		  "full1ub" :  {
+		    "frames"  :  8,
+		    "cycle"  :  2.0,
+		    "mode"  :  "loop"
+		  },
+		  "full2ub" :  {
+		    "frames"  :  8,
+		    "cycle"  :  2.0,
+		    "mode"  :  "loop"
+		  },
+		  "full3ub" :  {
+		    "frames"  :  8,
+		    "cycle"  :  2.0,
+		    "mode"  :  "loop"
+		  },
+		  "full4ub" :  {
+		    "frames"  :  5,
+		    "cycle"  :  1.2,
+		    "mode"  :  "loop"
+		  },
+		  "full5ub" :  {
+		    "frames"  :  5,
+		    "cycle"  :  1.2,
+		    "mode"  :  "loop"
+		  },
+		  "idle1ub" :  {
+		    "frames"  :  8,
+			"cycle"  : 1.6,
+		    "mode"  :  "transition",
+			"transition"  :  "idleub"
+		  },
+		  "idle2ub" :  {
+		    "frames"  :  8,
+			"cycle"  : 1.6,
+		    "mode"  :  "transition",
+			"transition"  :  "idleub"
+		  },
+		  "seduceub"  :  {
+		    "frames"  :  2,
+			"cycle"  :  0.4,
+			"mode"  :  "transition",
+			"transition"  :  "idleub"
+		  },
+		  "blinkub"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.6,
+			"mode"  :  "transition",
+			"transition"  :  "idleub"
+		  },
+		  "swallowub" :  {
+		    "frames"  :  11,
+			"cycle"  : 2.2,
+		    "mode"  :  "transition",
+			"transition"  :  "full1ub"
+		  },
+		  "releaseub" :  {
+		    "frames"  :  5,
+			"cycle"  : 1.0,
+		    "mode"  :  "transition",
+			"transition"  :  "idleub"
+		  },
+		  "digestedub" :  {
+		    "frames"  :  1,
+		    "mode"  :  "loop"
+		  }
+		}
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "digest1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest1.<frame>"
+		      }
+		    },
+		"digest2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest2.<frame>"
+		      }
+		    },
+	        "digest3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest3.<frame>"
+		      }
+		    },
+	        "digest4"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest4.<frame>"
+		      }
+		    },
+	        "digest5"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest5.<frame>"
+		      }
+		    },
+	        "full1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full1.<frame>"
+		      }
+		    },
+	        "full2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full2.<frame>"
+		      }
+		    },
+	        "full3"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full3.<frame>"
+		      }
+		    },
+	        "full4"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full4.<frame>"
+		      }
+		    },
+	        "clench"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:clench.<frame>"
+		      }
+		    },
+	        "struggle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:struggle.<frame>"
+		      }
+		    },
+	        "full5"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full5.<frame>"
+		      }
+			},
+		"burp"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:burp.<frame>"
+		      }
+			},
+		"idle1"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle1.<frame>"
+		      }
+		    },
+		"idle2"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle2.<frame>"
+		      }
+		    },
+		"seduceov"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:seduceov.<frame>"
+		      }
+		    },
+		"blink"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:blink.<frame>"
+		      }
+		    },
+		"swallowov"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:swallowov.<frame>"
+		      }
+		    },
+		"release"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:release.<frame>"
+		      }
+		    },
+		"releasemouth"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:releasemouth.<frame>"
+		      }
+		    },
+	        "digested"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digested"
+		      }
+		    },
+		"seducetail"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:seducetail.<frame>"
+		      }
+		    },
+		"digestedbounce"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digestedbounce.<frame>"
+		      }
+		    },
+		"swallowtail"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:swallowtail.<frame>"
+		      }
+		    },
+		"swallowav"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:swallowav.<frame>"
+		      }
+		    },
+		"idleub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idleub"
+		      }
+		    },
+	        "digest1ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest1ub.<frame>"
+		      }
+		    },
+		"digest2ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest2ub.<frame>"
+		      }
+		    },
+	        "digest3ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest3ub.<frame>"
+		      }
+		    },
+	        "digest4ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest4ub.<frame>"
+		      }
+		    },
+	        "digest5ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest5ub.<frame>"
+		      }
+		    },
+	        "full1ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full1ub.<frame>"
+		      }
+		    },
+	        "full2ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full2ub.<frame>"
+		      }
+		    },
+	        "full3ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full3ub.<frame>"
+		      }
+		    },
+	        "full4ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full4ub.<frame>"
+		      }
+		    },
+	        "full5ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full5ub.<frame>"
+		      }
+			},
+			"idle1ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle1ub.<frame>"
+		      }
+		    },
+			"idle2ub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle2ub.<frame>"
+		      }
+		    },
+			"seduceub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:seduceub.<frame>"
+		      }
+		    },
+			"blinkub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:blinkub.<frame>"
+		      }
+		    },
+			"swallowub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:swallowub.<frame>"
+		      }
+		    },
+			"releaseub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:releaseub.<frame>"
+		      }
+		    },
+	        	"digestedub"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digestedub"
+		      }
+		    }
+		}
+	    }
+   	  }
+    }
+  }
+}

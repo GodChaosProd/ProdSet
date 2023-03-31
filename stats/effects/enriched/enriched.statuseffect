@@ -1,0 +1,15 @@
+{
+  "name" : "enriched",
+  "blockingStat" : "digestionImmunity",
+  "effectConfig" : {
+    "digestTime" : 100
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "enriched.lua"
+  ],
+
+  "label" : "Slowly Mixing",
+  "icon" : "/stats/icons/enriched.png"
+}

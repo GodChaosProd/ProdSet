@@ -1,0 +1,82 @@
+{
+  "objectName"  :  "prod-samiraspo",
+  "printable"  :  false,
+  "rarity"  :  "Legendary",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Hybrid SPO"
+  },
+  "price"  :  20,
+  "description"  :  "A lusty female draconic anthro with a heated body. She wants you inside, no matter what fashion.~",
+  "shortdescription"  :  "Samira",
+
+  "apexDescription" : "Hot. Literally and figuratively.",
+  "avianDescription" : "Is it just me or does she give the impression I'm about to be cooked?",
+  "floranDescription" : "Ooh! Fresssh warm meat!",
+  "glitchDescription" : "Alarmed. I myself like the heat, but this is a bit much for my taste.",
+  "humanDescription" : "Geez, how much heat does this lady need?",
+  "hylotlDescription" : "Her stomach must be one heck of a cauldron.",
+  "novakidDescription" : "She must've eaten hundreds and we don't know...",
+  "avaliDescription" : "Whew... I can feel the heat from here...",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "samimelt",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "femaledangericon.png",
+  "orientations" : [
+    {
+	  "image" : "samiraspo.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 3],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]
+	},
+    {
+	  "image" : "samiraspo.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 3],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]
+	}
+  ],
+  
+  "animation"  :  "samiraspo.animation",
+  "animationCustom" : {
+    "sounds" : {
+		"swallowov" : [ "/sfx/vore/mia/miaswallow.ogg" ],
+		"swallowtail" : [ "/sfx/objects/squishing.ogg" ],
+		"swallowub" : [ "/sfx/objects/squishing.ogg" ],
+		"digest" : ["/sfx/vore/mia/miadigest.ogg"],
+		"gurgle" : [
+			"/sfx/vore/bellysounds/bellysound1.ogg", "/sfx/vore/bellysounds/bellysound2.ogg", "/sfx/vore/bellysounds/bellysound3.ogg", "/sfx/vore/bellysounds/bellysound4.ogg", "/sfx/vore/bellysounds/bellysound5.ogg", "/sfx/vore/bellysounds/bellysound6.ogg", "/sfx/vore/bellysounds/bellysound7.ogg", "/sfx/vore/bellysounds/bellysound8.ogg", "/sfx/vore/bellysounds/bellysound9.ogg", "/sfx/vore/bellysounds/bellysound10.ogg", "/sfx/vore/bellysounds/bellysound11.ogg", "/sfx/vore/bellysounds/bellysound12.ogg", "/sfx/vore/bellysounds/bellysound13.ogg", "/sfx/vore/bellysounds/bellysound14.ogg", "/sfx/vore/mia/miatransfer.ogg", "/sfx/vore/mia/miasquelch.ogg"
+		],
+                "ubgurgle" : [
+			"/sfx/vore/bellysounds/bellysound1.ogg", "/sfx/vore/bellysounds/bellysound2.ogg", "/sfx/vore/bellysounds/bellysound3.ogg", "/sfx/vore/bellysounds/bellysound4.ogg", "/sfx/vore/bellysounds/bellysound5.ogg", "/sfx/vore/bellysounds/bellysound6.ogg", "/sfx/vore/bellysounds/bellysound7.ogg", "/sfx/vore/bellysounds/bellysound8.ogg", "/sfx/vore/bellysounds/bellysound9.ogg", "/sfx/vore/bellysounds/bellysound10.ogg", "/sfx/vore/bellysounds/bellysound11.ogg", "/sfx/vore/bellysounds/bellysound12.ogg", "/sfx/vore/bellysounds/bellysound13.ogg", "/sfx/vore/bellysounds/bellysound14.ogg"
+		],
+		"release" : ["/sfx/objects/predescape.ogg"],
+		"ovrelease" : ["/sfx/vore/samira/samiregurg.ogg"],
+		"burp" : ["/sfx/vore/samira/samiburp.ogg"],
+	  	"clench" : [ 
+			"/sfx/objects/groan1.ogg", "/sfx/objects/groan2.ogg", "/sfx/objects/groan3.ogg", "/sfx/vore/mia/miagrowl.ogg" 
+		]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "samiraspo.png"
+  },
+  
+  "scripts" : [ "/objects/vore/spo/samira/samiraspo.lua" ],
+  "scriptDelta" : 3
+}

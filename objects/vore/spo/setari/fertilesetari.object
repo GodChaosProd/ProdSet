@@ -1,0 +1,74 @@
+{
+  "objectName"  :  "voreubsetarifertile",
+  "printable"  :  false,
+  "rarity"  :  "Essential",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "SPO Mascot"
+  },
+  "price"  :  20,
+  "description"  :  "Our goddess! Seems she is fertile today.~",
+  "shortdescription"  :  "Fertile Setari",
+
+  "apexDescription" : "Is she a slime? I can't tell.",
+  "avianDescription" : "Oh woah! She's like a goddess!",
+  "floranDescription" : "Sssexy lady wants me to head in?",
+  "glitchDescription" : "Awestruck. Wow! She has incredible beauty!",
+  "humanDescription" : "*Fangirls*",
+  "hylotlDescription" : "Such beauty!",
+  "novakidDescription" : "Hey, pretty lady!",
+  "avaliDescription" : "Slime in my feathers? Gonna take a while to wash out, but the comfort will be worth it... Possibly...",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "enriched",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "femaleiconsquish.png",
+  "orientations" : [
+    {
+	  "image" : "setari.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 3],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]
+	},
+    {
+	  "image" : "setari.png:idle",
+	  "imagePosition" : [-20, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 3],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-20, -16]
+	}
+  ],
+  
+  "animation"  :  "setari.animation",
+  "animationCustom" : {
+    "sounds" : {
+		"swallow" : [ "/sfx/objects/squishing.ogg" ],
+		"digest" : ["/sfx/objects/bellysounds/digesttrue.ogg"],
+		"gurgle": [
+			"/sfx/vore/bellysounds/bellysound1.ogg", "/sfx/vore/bellysounds/bellysound2.ogg", "/sfx/vore/bellysounds/bellysound3.ogg", "/sfx/vore/bellysounds/bellysound4.ogg", "/sfx/vore/bellysounds/bellysound5.ogg", "/sfx/vore/bellysounds/bellysound6.ogg", "/sfx/vore/bellysounds/bellysound7.ogg", "/sfx/vore/bellysounds/bellysound8.ogg", "/sfx/vore/bellysounds/bellysound9.ogg", "/sfx/vore/bellysounds/bellysound10.ogg", "/sfx/vore/bellysounds/bellysound11.ogg", "/sfx/vore/bellysounds/bellysound12.ogg", "/sfx/vore/bellysounds/bellysound13.ogg", "/sfx/vore/bellysounds/bellysound14.ogg"
+		],
+		"release" : ["/sfx/objects/predescape.ogg"],
+		"escape" : ["/sfx/vore/samira/samiregurg.ogg"],
+		"gulp" : ["/sfx/vore/mia/miaswallow.ogg"]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "setari.png"
+  },
+  
+  "scripts" : [ "/objects/vore/spo/setari/fertilesetari.lua" ],
+  "scriptDelta" : 3
+}

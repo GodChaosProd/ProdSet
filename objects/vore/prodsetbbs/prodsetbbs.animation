@@ -1,0 +1,96 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1
+		  },
+		  "idlefold"  :  {
+		    "frames"  :  1
+		  },
+		  "inflate"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		   "gush"  :  {
+		    "frames"  :  10,
+			"cycle"  :  1.2,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		  "squeeze"  :  {
+		    "frames"  :  3,
+			"cycle"  :  0.5,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		   "open"  :  {
+		    "frames"  :  5,
+			"cycle"  :  0.7,
+			"mode"  :  "transition",
+			"transition"  :  "idle"
+		  },
+		   "fold"  :  {
+		    "frames"  :  5,
+			"cycle"  :  0.7,
+			"mode"  :  "transition",
+			"transition"  :  "idlefold"
+
+		  }
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle"
+		      }
+		    },
+	        "idlefold"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idlefold"
+		      }
+		    },
+	        "inflate"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:inflate.<frame>"
+		      }
+		    },
+			"gush"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:gush.<frame>"
+		      }
+		    },
+	        "squeeze"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:squeeze.<frame>"
+		      }
+		    },
+	        "open"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:open.<frame>"
+		      }
+		    },
+	        "fold"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:fold.<frame>"
+		      }
+		    }
+		  }
+	    }
+   	  }
+    }
+  }
+}

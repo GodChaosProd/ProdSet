@@ -1,0 +1,178 @@
+{
+  "type" : "prey_drenii",
+  "baseType" : "villager",
+
+  "npcname" : "Renii",
+  
+  "identity" : {
+	"gender" : "female"
+  },
+
+  "scriptConfig" : {
+	"questGenerator" : { "pools" : [], "enableParticipation" : false },
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : {
+			"default" : {
+			  "default" : [
+							"I liked it better before.",
+							"Actively trying to anger me?",
+							"I can't stay much longer in this situation.",
+							"Please put that back. I need that."
+			  ]
+			}
+		  },
+          "enclosedArea" : {
+			"default" : {
+			  "default" : [
+							"Idiot! I get scared easily! Seal these holes up!",
+							"I-It's possible another predator is eyeing me.",
+							"This place is a mess.",
+							"Come on, bud. It makes me look so revealing!",
+							"I can see the outside. Predators are coming after me..."
+			  ]
+			}
+		  },
+          "otherDeed" : {
+			"default" : {
+			  "default" : [
+							"I like my privacy, bud! What's the big idea?!",
+							"Hey! What if the other person is a predator?!",
+							"I want my own room! No one else, okay?!"
+			  ]
+			}
+		  },
+          "severe" : {
+			"default" : {
+			  "default" : [
+						"Are you going to fix my room or no?",
+						"Don't just stand there. Fix it!",
+						"This is appalling. Correct it!"
+			  ]
+			}
+		  },
+          "final" : {
+			"default" : {
+			  "default" : [
+						"I warned you time and time again, bud.",
+						"Call me again when you managed to sort out this mess.",
+						"I'm out of here. Can't risk predators getting me."
+			  ]
+			}
+          }
+		},
+        "arrivedHome" : {
+          "beacon" : {
+			"default" : {
+			  "default" : [
+						"I... uhm... am a bit low on pixels if that's what you're wondering.",
+						"Hey bud. Do you need me for something?",
+						"In a pickle, bud? What do you need?",
+						"Did you just want to see me? I am cute, aren't I?~"
+			  ]
+			}
+		  },
+          "rent" : {
+			"default" : {
+			  "default" : [
+						"Right on time, bud.",
+						"Hopefully you'll make good use of this."
+			  ]
+			}
+          }
+		}
+      },
+      "flee" : {
+        "helpme" : {
+		  "default" : {
+			"default" : [
+					"Ah, running!",
+					"Please help me!",
+					"Help! Help me!",
+					"Predators! I need help!"
+			]
+		  }
+		},
+        "helpthem" : {
+		  "default" : {
+			"default" : [
+						"Go save them!",
+						"I think someone is in a bit of trouble!",
+						"I don’t think they will survive much longer!",
+						"Get to them!",
+						"Please save them."
+			]
+		  }
+		},
+        "encourage" : {
+		  "default" : {
+			"default" : [
+					"Beat them beyond recognition!!",
+					"Don’t get eaten!",
+					"Go get 'em, tiger!!",
+					"Hell yeah! Get 'em!",
+					"You could get swallowed whole..."
+			]
+		  }
+        },
+        "safe" : {
+		  "default" : {
+			"default" : [
+					"You beat those monsters! Good work!",
+					"I expect nothing less from a good buddy.~",
+					"Whew... Safe at last...",
+					"Naisu!",
+					"Great job out there!",
+					"I never doubted you for a second."
+			]
+		  }
+        }
+	  },
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Oh, hi...",
+			"I am just a simple Avali. Nothing else.",
+			"I am not food, if that is what you're wondering.",
+			"I don't wish to be eaten today... or any day.",
+			"What is so pleasurable about being inside a stomach?",
+			"I find your lack of prey... disturbing.",
+			"This place is nice. Shall I crash here?",
+			"Gimme the tour around... Not that kind of tour.",
+			"You got some Kiri Jam I can cook with?",
+			"I could really go for a bloody pastry right about now...",
+			"I have a tendency to jump at sounds. Don't startle me.",
+			"This universe is really strange...",
+			"I really love the Kirikiri Pie you left out for me...~"
+          ]
+        }
+      }
+    }
+  },
+  "disableWornArmor" : false,
+  "scriptDelta" : 5,
+
+  "scripts" : [ "/npcs/bmain.lua",
+				"/npcs/vore/renii/prey_drenii.lua" 
+  ],
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+			"head" : [
+              { "name" : "reniihead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "reniichest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "reniilegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

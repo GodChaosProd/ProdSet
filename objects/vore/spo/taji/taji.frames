@@ -1,0 +1,14 @@
+{
+
+  "frameGrid" : {
+    "size" : [48, 56],
+    "dimensions" : [19, 5],
+    "names" : [
+      [ "idle", "dance.1", "dance.2", "dance.3", "dance.4", "dance.5", "dance.6", "dance.7", "dance.8", "dance.9", "dance.10", "dance.11", "dance.12", "dance.13", "dance.14", "dance.15", "dance.16", "dance.17", "dance.18" ],
+      [ "bellyidle", "bellydance.1", "bellydance.2", "bellydance.3", "bellydance.4", "bellydance.5", "bellydance.6", "bellydance.7", "bellydance.8", "bellydance.9", "bellydance.10", "bellydance.11", "bellydance.12", "bellydance.13", "bellydance.14", "bellydance.15", "bellydance.16", "bellydance.17", "bellydance.18" ],
+      [ "bellyidlesmall", "bellydancesmall.1", "bellydancesmall.2", "bellydancesmall.3", "bellydancesmall.4", "bellydancesmall.5", "bellydancesmall.6", "bellydancesmall.7", "bellydancesmall.8", "bellydancesmall.9", "bellydancesmall.10", "bellydancesmall.11", "bellydancesmall.12", "bellydancesmall.13", "bellydancesmall.14", "bellydancesmall.15", "bellydancesmall.16", "bellydancesmall.17", "bellydancesmall.18" ],
+      [ "swallow.1", "swallow.2", "swallow.3", "swallow.4", "swallow.5", "swallow.6", "swallow.7", "clench.1", "clench.2", "clench.3", "clench2.1", "clench2.2", "clench2.3", "struggle.1", "struggle.2", "struggle.3", "struggle.4", "struggle.5", "struggle.6" ],
+      [ "exit.1", "exit.2", "exit.3", "exit.4", "exit.5", "exit.6", "exit.7", "blink.1", "digest.1", "digest.2", "digest.3", "digest2.1", "digest2.2", "digest2.3", "digest2.4", "burp.1", "burp.2", "burp.3", "blank" ]
+    ]
+  }
+}

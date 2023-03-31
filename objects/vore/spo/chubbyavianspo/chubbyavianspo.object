@@ -1,0 +1,71 @@
+{
+  "objectName" : "chubbyavianspo",
+  "rarity" : "Legendary",
+  "description" : "Despite her name, she can't really take to the skies.",
+  "shortdescription" : "Eris",
+  "race" : "avian",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Hybrid SPO"
+  },
+  "price" : 20,
+  "printable" : false,
+  
+  "apexDescription" : "This avian female seems to be inviting me... but for what?",
+  "avianDescription" : "Something about this girl seems... intriguing...",
+  "floranDescription" : "...Floran like avian, but why?",
+  "glitchDescription" : "Brooding. There is something about this female...",
+  "humanDescription" : "Whatever it is you want miss, I'm saying yes.~",
+  "hylotlDescription" : "Why are you looking at me like that?",
+  "novakidDescription" : "I like the way this lady's eyein' me.",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+     "slowheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "femaleicon.png",
+  "orientations" : [
+    {
+	  "image" : "chubbyavianspo.png:idle",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [4, 3],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-8, -16]
+	},
+    {
+	  "image" : "chubbyavianspo.png:idle",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [4, 3],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "chubbyavianspo.animation",
+  "animationCustom" : {
+     "sounds" : {
+	  "swallow" : [ "/sfx/vore/mia/miaswallow.ogg" ],
+	  "stomach" : [ "/sfx/objects/groan1.ogg", "/sfx/objects/groan2.ogg", "/sfx/objects/groan3.ogg", "/sfx/vore/mia/miagrowl.ogg" ],
+	"regurg" : [ "/sfx/vore/samira/samiregurg.ogg" ],
+	"release" : ["/sfx/objects/predescape.ogg"],
+	"swallowav" : [ "/sfx/objects/squishing.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "chubbyavianspo.png"
+  },
+  
+  "scripts" : [ "/objects/vore/spo/chubbyavianspo/chubbyavianspo.lua" ],
+  "scriptDelta" : 3
+}
