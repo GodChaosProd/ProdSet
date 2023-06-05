@@ -50,10 +50,10 @@
   "animationCustom" : {
     "sounds" : {
         "swallow" : [ "/sfx/vore/mia/miaswallow.ogg" ],
-	"digest" : [ "/sfx/vore/mia/miadigest.ogg" ],
+	"digest" : [ "/sfx/vore/mia/miagrowl.ogg" ],
         "belly" : [ "/sfx/vore/mia/miatransfer.ogg", "/sfx/vore/mia/miasquelch.ogg" ],
 	"release" : ["/sfx/vore/samira/samiregurg.ogg"],
-	"idle" : [ "/sfx/vore/mia/miagrowl.ogg", "/sfx/vore/bellysounds/digestidle.ogg", "/sfx/objects/groan1.ogg", "/sfx/objects/groan2.ogg", "/sfx/objects/groan3.ogg" ]
+	"idle" : [ "/sfx/vore/mia/miagrowl.ogg", "/sfx/vore/bellysounds/digestidle.ogg", "/sfx/objects/belly1.ogg", "/sfx/objects/belly2.ogg", "/sfx/objects/belly3.ogg" ]
 	
 	}
   },

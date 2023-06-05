@@ -55,12 +55,12 @@
   "animation"  :  "setari.animation",
   "animationCustom" : {
     "sounds" : {
-		"swallow" : [ "/sfx/objects/squishing.ogg" ],
-		"digest" : ["/sfx/vore/bellysounds/digesttrue.ogg"],
-		"gurgle" : [
-			"/sfx/vore/bellysounds/bellysound1.ogg", "/sfx/vore/bellysounds/bellysound2.ogg", "/sfx/vore/bellysounds/bellysound3.ogg", "/sfx/vore/bellysounds/bellysound4.ogg", "/sfx/vore/bellysounds/bellysound5.ogg", "/sfx/vore/bellysounds/bellysound6.ogg", "/sfx/vore/bellysounds/bellysound7.ogg", "/sfx/vore/bellysounds/bellysound8.ogg", "/sfx/vore/bellysounds/bellysound9.ogg", "/sfx/vore/bellysounds/bellysound10.ogg", "/sfx/vore/bellysounds/bellysound11.ogg", "/sfx/vore/bellysounds/bellysound12.ogg", "/sfx/vore/bellysounds/bellysound13.ogg", "/sfx/vore/bellysounds/bellysound14.ogg"
+		"swallow" : [ "/sfx/objects/sw/stomachtransfer.ogg" ],
+		"digest" : ["/sfx/vore/digest/digest (23).ogg"],
+		"gurgle": [
+			"/sfx/vore/digest/digest (17).ogg", "/sfx/vore/digest/digest (18).ogg", "/sfx/vore/digest/digest (25).ogg", "/sfx/vore/digest/digest (11).ogg", "/sfx/vore/digest/digest (13).ogg", "/sfx/vore/digest/digest (15).ogg", "/sfx/vore/digest/digest (16).ogg", "/sfx/vore/digest/digest (19).ogg", "/sfx/vore/digest/digest (20).ogg", "/sfx/vore/digest/digest (3).ogg", "/sfx/vore/digest/digest (31).ogg", "/sfx/vore/digest/digest (36).ogg", "/sfx/vore/digest/digest (37).ogg", "/sfx/vore/digest/digest (9).ogg"
 		],
-		"release" : ["/sfx/objects/predescape.ogg"]
+		"release" : ["/sfx/objects/eggLay.ogg"]
 	}
   },
   "animationParts"  :  {
