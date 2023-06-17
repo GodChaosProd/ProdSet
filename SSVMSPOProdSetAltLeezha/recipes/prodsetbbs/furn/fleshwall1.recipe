@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "prod-fleshwall1",
+    "count" : 1
+  },
+  "groups" : [ "prodsetbbs", "furn" ]
+}

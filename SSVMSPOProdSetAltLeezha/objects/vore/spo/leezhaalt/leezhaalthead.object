@@ -1,0 +1,61 @@
+{
+  "objectName"  :  "prodvoreleezhaalthead",
+  "printable"  :  false,
+  "rarity"  :  "Rare",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Macro SPO"
+  },
+  "price"  :  20,
+  "description"  :  "I can't take my eyes off of her!",
+  "shortdescription"  :  "Lee-Zha's Head",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+	"intents",
+	"nude"
+  ],
+  
+  "inventoryIcon"  :  "tempicon.png",
+  "orientations" : [
+    {
+	  "image" : "leezhaalthead.png:default",
+	  "imagePosition" : [0, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [-100, 30],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [0, 0],
+
+          "renderLayer" : "Player+1"
+	},
+    {
+	  "image" : "leezhaalthead.png:default",
+	  "imagePosition" : [0, 0],
+	  "direction" : "right",
+	  "sitPosition" : [-17, 30],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+	  "animationPosition" : [0, 0],
+
+          "renderLayer" : "Player+1"
+	}
+  ],
+  "animation"  :  "leezhaalthead.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/vore/leezhaalt/leezhagulp.ogg" ],
+	"totail" : [ "/sfx/objects/predescape.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "leezhaalthead.png"
+  },
+  
+  "scripts" : [ "/objects/vore/spo/leezhaalt/leezhaalthead.lua" ],
+  "scriptDelta" : 3
+}

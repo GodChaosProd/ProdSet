@@ -1,0 +1,14 @@
+{
+  "itemName" : "stomachblock2",
+  "price" : 1,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stomachblock2.png",
+  "description" : "This fleshy mass looks like it was part of some creature's stomach.",
+  "shortdescription" : "Stomach Lining",
+  "glitchdescription" : "Uncomfortable. This slimy mass looks and smells terrible.",
+  "florandescription" : "Sslimy meat.",
+  "novakiddescription" : "Some sorta slimy lookin' meat.",
+
+  "materialId" : 2333
+}

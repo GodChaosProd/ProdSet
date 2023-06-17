@@ -1,0 +1,54 @@
+{
+  "objectName"  :  "prodvorealtfleshvalve",
+  "printable"  :  false,
+  "rarity"  :  "Rare",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Flesh Valve"
+  },
+  "price"  :  20,
+  "description"  :  "When it is placed inside a macro pred, it can give you an escape.",
+  "shortdescription"  :  "Fleshy Valve",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+	"intents",
+	"nude"
+  ],
+  
+  "inventoryIcon"  :  "valveicon.png",
+  "orientations" : [
+    {
+      "image" : "altfleshvalve.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+      "frames" : 4,
+      "animationCycle" : 1.0,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+	  
+	  "sitPosition" : [-24, 16],
+      "spaceScan" : 0.1,
+	  
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "image" : "altfleshvalve.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+      "frames" : 4,
+      "animationCycle" : 1.0,
+	  
+	  "direction" : "right",
+	  
+	  "sitPosition" : [-24, 16],
+      "spaceScan" : 0.1,
+	  
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

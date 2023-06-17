@@ -1,0 +1,27 @@
+{
+  "objectName"  :  "prodvoreleezhaalttail",
+  "printable"  :  false,
+  "rarity"  :  "Rare",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Macro SPO"
+  },
+  "price"  :  20,
+  "description"  :  "How big is this Serperior?!",
+  "shortdescription"  :  "Lee-Zha's Tail",
+
+  "inventoryIcon" : "tempicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "leezhaalttail.png:default",
+
+      "imagePosition" : [0, 0],
+
+      "renderLayer" : "Player+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

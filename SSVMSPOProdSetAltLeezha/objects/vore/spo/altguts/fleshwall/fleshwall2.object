@@ -1,0 +1,25 @@
+{
+  "objectName" : "prod-fleshwall2",
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "A fleshy wall to provide texture to the internals of a Macro.",
+  "shortdescription" : "Flesh Wall",
+
+
+  "inventoryIcon" : "valveicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fleshwall2.png:<default>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+
+      "renderLayer" : "Player+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

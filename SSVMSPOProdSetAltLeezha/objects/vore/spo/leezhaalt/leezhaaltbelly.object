@@ -1,0 +1,30 @@
+{
+  "objectName"  :  "prodvoreleezhaaltbelly",
+  "printable"  :  false,
+  "rarity"  :  "Rare",
+  "category"  :  "other",
+  "tooltipFields" : {
+    "subtitle" : "Macro SPO"
+  },
+  "price"  :  20,
+  "description"  :  "A roomy belly to be in.~",
+  "shortdescription"  :  "Lee-Zha's Belly",
+  
+  "footstepSound" : "/sfx/blocks/footstep_mud.ogg",
+
+  "inventoryIcon" : "tempicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "leezhaaltbelly.png:default",
+
+      "imagePosition" : [0, 0],
+
+      "renderLayer" : "Player+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "solid"
+
+    }
+  ]
+}
