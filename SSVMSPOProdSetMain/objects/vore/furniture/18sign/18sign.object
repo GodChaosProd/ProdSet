@@ -1,0 +1,25 @@
+{
+  "objectName" : "prodset-18sign",
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "Minors not allowed!",
+  "shortdescription" : "18+ Sign",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+
+  "inventoryIcon" : "18icon.png",
+  "orientations" : [
+    {
+      "image" : "18sign.png",
+
+      "imagePosition" : [-1, -1],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [ [0, 0], [0, 0] ],
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

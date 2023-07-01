@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "prodset-18sign",
+    "count" : 1
+  },
+  "groups" : [ "prodsetbbs", "furn" ]
+}
