@@ -4,10 +4,8 @@
   "particleColor" : [111, 94, 74, 255],
   "itemDrop" : "stomachblock2",
   "description" : "This fleshy mass looks like it was part of some creature's stomach.",
-  "shortdescription" : "Slimed Stomach Lining",
-  "glitchDescription" : "Uncomfortable. This slimy mass looks and smells terrible.",
-  "floranDescription" : "Sslimy meat.",
-  "novakidDescription" : "Some sorta slimy lookin' meat.",
+  "shortdescription" : "Slimy Stomach Lining",
+
   "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
   "health" : 4,
   "category" : "materials",
