@@ -8,4 +8,6 @@ More information can be found on the codex, but this addon adds in 6 SPOs and 3 
 
 There is an optional Alternate Lee-Zha mod that you can decide to use if you wish, but do be warned that it also adds in a new tile.
 
+Please note that if you're updating form an old iteration or are replacing it, delete the old one first if replacing fails to work.
+
 Thanks, and have fun!
